@@ -1,0 +1,72 @@
+{
+  "id": "1836500",
+  "name": "小u商城",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "14996137",
+      "name": "search",
+      "font_class": "search",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "637803",
+      "name": "向上箭头",
+      "font_class": "xiangshangjiantou",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "1127404",
+      "name": "下箭头",
+      "font_class": "downarrow",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "24850",
+      "name": "二维码",
+      "font_class": "erweima",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "1985085",
+      "name": "点赞",
+      "font_class": "dianzan",
+      "unicode": "e65c",
+      "unicode_decimal": 58972
+    },
+    {
+      "icon_id": "9874485",
+      "name": "KHCFDC_更多",
+      "font_class": "gengduo",
+      "unicode": "e6cd",
+      "unicode_decimal": 59085
+    },
+    {
+      "icon_id": "354412",
+      "name": "菜单",
+      "font_class": "iconfontcaidan",
+      "unicode": "e60f",
+      "unicode_decimal": 58895
+    },
+    {
+      "icon_id": "4770750",
+      "name": "下箭头",
+      "font_class": "xiajiantou",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "7708033",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    }
+  ]
+}

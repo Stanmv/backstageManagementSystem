@@ -1,0 +1,290 @@
+header {
+  width: 7.5rem;
+  height: 0.88rem;
+  background: #f26b11;
+}
+header .top {
+  width: 6.98rem;
+  height: 0.88rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top a:nth-child(1) {
+  width: 0.56rem;
+  height: 0.3rem;
+  display: block;
+  margin-left: 0.05rem;
+}
+header .top a:nth-child(1) img {
+  width: 0.18rem;
+  height: 0.3rem;
+}
+header .top p {
+  font-size: 0.34rem;
+  color: #fff;
+}
+header .top a:nth-child(3) {
+  display: block;
+  width: 0.56rem;
+  height: 0.12rem;
+  margin-right: 0.05rem;
+}
+header .top a:nth-child(3) img {
+  width: 0.56rem;
+  height: 0.12rem;
+}
+.main {
+  width: 7.5rem;
+  padding-bottom: 2.33rem;
+  background: #fff;
+  overflow: hidden;
+}
+.main .content_01box {
+  width: 7.5rem;
+  height: 1.7rem;
+  margin-top: 0.26rem;
+  box-shadow: 0 0 0.1rem #f1f1f1;
+  transition: 1s;
+  position: relative;
+}
+.main .content_01box:hover {
+  margin-left: -0.98rem;
+}
+.main .content_01box::after {
+  content: "删除";
+  display: block;
+  height: 1.7rem;
+  width: 0.98rem;
+  position: absolute;
+  right: -0.98rem;
+  top: 0;
+  background: #e43a3d;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 1.7rem;
+  text-align: center;
+}
+.main .content_01box .content_01 {
+  width: 7.06rem;
+  height: 1.7rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main .content_01box .content_01 .leftbox {
+  display: flex;
+}
+.main .content_01box .content_01 .leftbox .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1.96rem;
+  height: 1.7rem;
+}
+.main .content_01box .content_01 .leftbox .left input {
+  display: none;
+}
+.main .content_01box .content_01 .leftbox .left input:checked + label > span {
+  background: url(../images/gou-01.jpg);
+  background-size: 0.35rem 0.35rem;
+}
+.main .content_01box .content_01 .leftbox .left label span {
+  display: block;
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url(../images/gou-02.jpg);
+  background-size: 0.35rem 0.35rem;
+}
+.main .content_01box .content_01 .leftbox .left img {
+  width: 1.34rem;
+  height: 1.12rem;
+}
+.main .content_01box .content_01 .leftbox ul {
+  display: inline-block;
+  margin-left: 0.18rem;
+}
+.main .content_01box .content_01 .leftbox ul li {
+  line-height: 0.555rem;
+}
+.main .content_01box .content_01 .leftbox ul li:nth-child(1) {
+  color: #343434;
+  font-size: 0.28rem;
+}
+.main .content_01box .content_01 .leftbox ul li:nth-child(2) {
+  color: #666666;
+  font-size: 0.26rem;
+}
+.main .content_01box .content_01 .leftbox ul li:nth-child(3) {
+  color: #e3393c;
+  font-size: 0.3rem;
+  margin-left: -0.08rem;
+}
+.main .content_01box .content_01 .right {
+  display: flex;
+  align-items: flex-end;
+  height: 1.5rem;
+}
+.main .content_01box .content_01 .right i {
+  display: block;
+  width: 0.61rem;
+  height: 0.56rem;
+  color: #454545;
+  font-size: 0.28rem;
+  text-align: center;
+  line-height: 0.56rem;
+  border: 1px solid #000;
+  border-radius: 0.03rem 0 0 0.03rem;
+}
+.main .content_01box .content_01 .right i:nth-child(3) {
+  border-radius: 0 0.03rem 0.03rem 0;
+}
+.main .content_01box .content_01 .right input {
+  width: 0.79rem;
+  height: 0.56rem;
+  border-width: 1px 0;
+  text-align: center;
+  border-color: #000;
+  font-size: 0.28rem;
+}
+body {
+  position: relative;
+}
+.ankle {
+  width: 7.5rem;
+  height: 1.14rem;
+  border-top: 1px solid #e5e5e5;
+  position: fixed;
+  justify-content: space-between;
+  left: 0;
+  bottom: 1.21rem;
+  display: flex;
+}
+.ankle .left {
+  display: flex;
+  width: 1.21rem;
+  height: 1.14rem;
+  justify-content: flex-end;
+  align-items: center;
+}
+.ankle .left input {
+  display: none;
+}
+.ankle .left input:checked + label > span {
+  background: url(../images/gou-01.jpg);
+  background-size: 0.35rem 0.35rem;
+}
+.ankle .left label {
+  display: flex;
+}
+.ankle .left label span {
+  display: block;
+  width: 0.35rem;
+  height: 0.35rem;
+  background: url(../images/gou-02.jpg);
+  background-size: 0.35rem 0.35rem;
+}
+.ankle .left label i {
+  font-size: 0.24rem;
+  color: #666666;
+  padding-left: 0.14rem;
+}
+.ankle .right {
+  height: 1.14rem;
+  width: 5.3rem;
+  display: flex;
+}
+.ankle .right .all {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  width: 2.48rem;
+  height: 1.14rem;
+}
+.ankle .right .all b {
+  color: #323232;
+  font-size: 0.3rem;
+}
+.ankle .right .all b i {
+  color: #e43a3b;
+}
+.ankle .right .all p {
+  color: #a4a4a4;
+  font-size: 0.2rem;
+  white-space: nowrap;
+}
+.ankle input {
+  width: 2.46rem;
+  border: none;
+  background: #f26b11;
+  font-size: 0.3rem;
+  color: #fff;
+  margin-left: 0.36rem;
+}
+footer {
+  height: 1.19rem;
+  width: 7.5rem;
+  box-shadow: 0 0 0.05rem 0.05rem #f9f9f9;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+}
+footer .foot {
+  width: 6.46rem;
+  height: 1.19rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-around;
+  font-size: 0.22rem;
+  color: #adadad;
+  text-align: center;
+}
+footer .foot div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer .foot .index:hover {
+  color: #f25200;
+}
+footer .foot .index:hover span {
+  background-image: url(../images/1-2.jpg);
+}
+footer .foot .index span {
+  display: block;
+  width: 0.54rem;
+  height: 0.54rem;
+  background: url(../images/1-1.jpg);
+  background-size: 0.54rem 0.54rem;
+}
+footer .foot .shopcar:hover {
+  color: #f25200;
+}
+footer .foot .shopcar:hover span {
+  background-image: url(../images/2-2.jpg);
+}
+footer .foot .shopcar span {
+  display: block;
+  width: 0.58rem;
+  height: 0.54rem;
+  background: url(../images/2-1.jpg);
+  background-size: 0.58rem 0.54rem;
+}
+footer .foot .my:hover {
+  color: #f25200;
+}
+footer .foot .my:hover span {
+  background-image: url(../images/3-2.jpg);
+}
+footer .foot .my span {
+  display: block;
+  width: 0.51rem;
+  height: 0.6rem;
+  background: url(../images/3-1.jpg);
+  background-size: 0.51rem 0.6rem;
+}
